@@ -4,6 +4,13 @@ const middleBar = document.querySelector('.bar.middle')
 const bottomBar = document.querySelector('.bar.bottom')
 const menuWindow = document.querySelector('.menu_panel')
 const slidePart = document.querySelector('.intro_img')
+const singleTile = document.querySelectorAll('.single_tile')
+
+singleTile.forEach((tile) => {
+    tile.onmousedown = () => {
+        tile.classList.toggle('tileBlur')
+    }
+})
 
 
 function animateMenu() {
