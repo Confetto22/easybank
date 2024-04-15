@@ -1,3 +1,6 @@
+  AOS.init();
+
+
 const menuBt = document.querySelector('.hamburger')
 const topBar = document.querySelector('.bar.top')
 const middleBar = document.querySelector('.bar.middle')
@@ -25,3 +28,5 @@ menuBt.onclick = () => {
     animateMenu();
 
 }
+
+
